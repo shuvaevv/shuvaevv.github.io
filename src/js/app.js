@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
-    "particles": {
+  "particles": {
       "number": {
-        "value": 30,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "polygon",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 19.18081918081918,
+          "speed": 40,
           "size_min": 0.1,
           "sync": false
         }
@@ -59,9 +59,9 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 6,
         "direction": "none",
-        "random": true,
+        "random": false,
         "straight": false,
         "out_mode": "out",
         "bounce": false,
@@ -70,15 +70,14 @@ document.addEventListener("DOMContentLoaded", function () {
           "rotateX": 600,
           "rotateY": 1200
         }
-      },
-      nb: 80
+      }
     },
     "interactivity": {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "grab"
+          "enable": true,
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
