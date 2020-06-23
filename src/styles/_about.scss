@@ -9,7 +9,7 @@
 
 .tech {
   margin: 10px;
-  font-size: 10px;
+  font-size: 60px;
 }
 
 .user {
@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   p {
-    font-size: 5px;
+    font-size: 15px;
   }
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
